@@ -1,5 +1,5 @@
 # Arduino-ESP8266-MySQL
-Operate MySQL from ESP8266 via PHP.   
+Operate MySQL from ESP8266 via HTTP.   
 Use [this](https://github.com/mevdschee/php-crud-api) as middleware.
 
 ![0001](https://user-images.githubusercontent.com/6020549/71568475-e7fce780-2b0a-11ea-8e91-52a6d268d0cd.jpg)
@@ -160,7 +160,7 @@ This library can be installed with the Arduino-IDE library manager.
 
 ## Build Firmware
 
-The following parts need to be changed according to your environment
+The following lines need to be changed according to your environment.
 ```
 const char* SSID = "SSID"; // SSID of Wifi router
 const char* PASSWORD = "PASSWORD"; // Password of Wifi router
