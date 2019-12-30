@@ -4,14 +4,16 @@ Use [this](https://github.com/mevdschee/php-crud-api) as middleware.
 
 ![0001](https://user-images.githubusercontent.com/6020549/71568475-e7fce780-2b0a-11ea-8e91-52a6d268d0cd.jpg)
 
-# Install php-crud-api
+# Host Side
+
+## Install php-crud-api
 ```
 $ cd $HOME
 
 $ git clone https://github.com/mevdschee/php-crud-api
 ```
 
-# Create DB and User
+## Create DB and User
 ```
 $ cd php-crud-api/
 
@@ -47,7 +49,7 @@ mysql> exit
 ```
 
 
-# Create Tables
+## Create Tables
 ```
 $ mysql -u php-crud-api -h localhost --password=php-crud-api
 
@@ -98,7 +100,7 @@ mysql> select * from posts;
 mysql> exit
 ```
 
-# Install PHP
+## Install PHP
 ```
 
 $ sudo apt install php
@@ -113,7 +115,7 @@ Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
 ```
 
 
-# Start Built-in WEB Server
+## Start Built-in WEB Server
 ```
 $ php -S 0.0.0.0:8080 -t $HOME/php-crud-api
 PHP 7.2.24-0ubuntu0.18.04.1 Development Server started at Mon Dec 30 09:21:32 2019
@@ -123,7 +125,7 @@ Press Ctrl-C to quit.
 ```
 
 
-# Test php-crud-api
+## Test php-crud-api
 ```
 $ curl http://localhost:8080/api.php/records/posts/ | python -mjson.tool
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -147,12 +149,14 @@ $ curl http://localhost:8080/api.php/records/posts/ | python -mjson.tool
 }
 ```
 
-# Install ArduinoJson
+# Arduino Side
+
+## Install ArduinoJson to Arduino IDE
 This library can be installed with the Arduino-IDE library manager.
 
 ![ArduinoJson-1](https://user-images.githubusercontent.com/6020549/71568748-04018880-2b0d-11ea-890e-bb396436bc2d.jpg)
 
-# Build Firmware
+## Build Firmware
 
 The following parts need to be changed according to your environment
 ```
