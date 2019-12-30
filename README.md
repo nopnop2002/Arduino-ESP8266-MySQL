@@ -149,9 +149,11 @@ $ curl http://localhost:8080/api.php/records/posts/ | python -mjson.tool
 }
 ```
 
+---
+
 # Arduino Side
 
-## Install ArduinoJson to Arduino IDE
+## Install ArduinoJson
 This library can be installed with the Arduino-IDE library manager.
 
 ![ArduinoJson-1](https://user-images.githubusercontent.com/6020549/71568748-04018880-2b0d-11ea-890e-bb396436bc2d.jpg)
