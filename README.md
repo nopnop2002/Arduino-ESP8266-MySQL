@@ -147,14 +147,19 @@ $ curl http://localhost:8080/api.php/records/posts/ | python -mjson.tool
 }
 ```
 
+# Install ArduinoJson
+This library can be installed with the Arduino-IDE library manager.
+
+![ArduinoJson-1](https://user-images.githubusercontent.com/6020549/71568748-04018880-2b0d-11ea-890e-bb396436bc2d.jpg)
+
 # Build Firmware
 
-The following lines need to be changed according to the environment.
+The following parts need to be changed according to your environment
 ```
 const char* SSID = "SSID"; // SSID of Wifi router
 const char* PASSWORD = "PASSWORD"; // Password of Wifi router
-String MYSQL_SERVER_IP = "SERVER_IP"; // IP address of MySQL(php-crud-api) server
-String MYSQL_SERVER_POTY = "SERVER_PORT"; // Port number of php-crud-api
+String MYSQL_SERVER_IP = "SERVER_IP"; // IP address of your WEB server
+String MYSQL_SERVER_POTY = "SERVER_PORT"; // Port number of your WEB server
 ```
 
 ## List
