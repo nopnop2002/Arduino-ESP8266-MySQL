@@ -186,7 +186,7 @@ category_id=2
 content=It works!
 ```
 
-### Read
+## Read
 ```
 [Read from MySQL] - sending request...
 ##[BASE_URL]## ==> http://192.168.10.43:8080/api.php/records/posts/
@@ -199,9 +199,8 @@ category_id=1
 content=blog started
 ```
 
-### Create
+## Create
 ```
-
 [Create to MySQL] - sending request...
 ##[BASE_URL]## ==> http://192.168.10.43:8080/api.php/records/posts/
 
@@ -227,9 +226,8 @@ category_id=3
 content=Hello World
 ```
 
-### Update
+## Update
 ```
-
 [Update to MySQL] - sending request...
 ##[BASE_URL]## ==> http://192.168.10.43:8080/api.php/records/posts/
 
