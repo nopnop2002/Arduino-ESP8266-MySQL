@@ -1,6 +1,6 @@
 # Arduino-ESP8266-MySQL
 Operate MySQL from ESP8266 via HTTP.   
-Use [this](https://github.com/mevdschee/php-crud-api) as middleware.
+Use [this](https://github.com/mevdschee/php-crud-api) as PHP script of WEB server.   
 
 ![0001](https://user-images.githubusercontent.com/6020549/71568475-e7fce780-2b0a-11ea-8e91-52a6d268d0cd.jpg)
 
@@ -164,8 +164,8 @@ The following lines need to be changed according to your environment.
 ```
 const char* SSID = "SSID"; // SSID of Wifi router
 const char* PASSWORD = "PASSWORD"; // Password of Wifi router
-String MYSQL_SERVER_IP = "SERVER_IP"; // IP address of your WEB server
-String MYSQL_SERVER_PORT = "SERVER_PORT"; // Port number of your WEB server
+String WEB_SERVER_IP = "SERVER_IP"; // IP address of WEB server
+String WEB_SERVER_PORT = "SERVER_PORT"; // Port number of WEB server(Default is 8080)
 ```
 
 ## List
