@@ -165,7 +165,7 @@ The following lines need to be changed according to your environment.
 const char* SSID = "SSID"; // SSID of Wifi router
 const char* PASSWORD = "PASSWORD"; // Password of Wifi router
 String MYSQL_SERVER_IP = "SERVER_IP"; // IP address of your WEB server
-String MYSQL_SERVER_POTY = "SERVER_PORT"; // Port number of your WEB server
+String MYSQL_SERVER_PORT = "SERVER_PORT"; // Port number of your WEB server
 ```
 
 ## List

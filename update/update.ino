@@ -16,7 +16,7 @@
 const char* SSID = "SSID"; // SSID of Wifi router
 const char* PASSWORD = "PASSWORD"; // Password of Wifi router
 String MYSQL_SERVER_IP = "SERVER_IP"; // IP address of MySQL(php-crud-api) server
-String MYSQL_SERVER_POTY = "SERVER_PORT"; // Port number of php-crud-api(Default is 8080)
+String MYSQL_SERVER_PORT = "SERVER_PORT"; // Port number of php-crud-api(Default is 8080)
 String PHP_URL = "/api.php/records/posts/";
 String BASE_URL;
 //String BASE_URL = "http://192.168.10.43:8080/api.php/records/posts/";
@@ -157,7 +157,7 @@ void setup() {
   initWiFi();
 
   Serial.println("[Update to MySQL] - sending request...");
-  BASE_URL = "http://" + MYSQL_SERVER_IP + ":" + MYSQL_SERVER_POTY + PHP_URL;
+  BASE_URL = "http://" + MYSQL_SERVER_IP + ":" + MYSQL_SERVER_PORT + PHP_URL;
   Serial.println("##[BASE_URL]## ==> " + BASE_URL);
   Serial.println();
 
