@@ -105,7 +105,7 @@ mysql> exit
 
 $ sudo apt install php
 
-$ sudo apt-get install php-mysql
+$ sudo apt install php-mysql
 
 $ php --version
 PHP 7.2.24-0ubuntu0.18.04.1 (cli) (built: Oct 28 2019 12:07:07) ( NTS )
